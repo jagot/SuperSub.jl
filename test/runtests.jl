@@ -1,5 +1,5 @@
 using SuperSub
 using Base.Test
 
-# write your own tests here
-@test 1 == 1
+@test superscript(52) == "⁵²"
+@test subscript(23852943//29387423) == "₂₃₈₅₂₉₄₃.₂₉₃₈₇₄₂₃"
